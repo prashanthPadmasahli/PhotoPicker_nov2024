@@ -11,6 +11,7 @@
 		047F5D312CF06372009FA6CB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047F5D302CF06372009FA6CB /* ContentView.swift */; };
 		047F5D332CF06373009FA6CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 047F5D322CF06373009FA6CB /* Assets.xcassets */; };
 		047F5D362CF06373009FA6CB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 047F5D352CF06373009FA6CB /* Preview Assets.xcassets */; };
+		047F5D3D2CF0992D009FA6CB /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 047F5D3C2CF0992D009FA6CB /* HomeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		047F5D302CF06372009FA6CB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		047F5D322CF06373009FA6CB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		047F5D352CF06373009FA6CB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		047F5D3C2CF0992D009FA6CB /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				047F5D2E2CF06372009FA6CB /* PhotoPicker_nov2024App.swift */,
 				047F5D302CF06372009FA6CB /* ContentView.swift */,
+				047F5D3C2CF0992D009FA6CB /* HomeView.swift */,
 				047F5D322CF06373009FA6CB /* Assets.xcassets */,
 				047F5D342CF06373009FA6CB /* Preview Content */,
 			);
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				047F5D3D2CF0992D009FA6CB /* HomeView.swift in Sources */,
 				047F5D312CF06372009FA6CB /* ContentView.swift in Sources */,
 				047F5D2F2CF06372009FA6CB /* PhotoPicker_nov2024App.swift in Sources */,
 			);
@@ -269,9 +273,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"PhotoPicker_nov2024/Preview Content\"";
+				DEVELOPMENT_TEAM = XK2693A9GS;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -286,6 +292,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "abc.PhotoPicker-nov2024";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -297,9 +304,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"PhotoPicker_nov2024/Preview Content\"";
+				DEVELOPMENT_TEAM = XK2693A9GS;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -314,6 +323,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = "abc.PhotoPicker-nov2024";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
